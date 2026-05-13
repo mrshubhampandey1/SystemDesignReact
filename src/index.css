@@ -1,0 +1,11 @@
+/*Autocomplete*/
+.listDisplay {
+  list-style: none;
+  border: 2px black;
+  border-style: solid;
+  max-height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 170px;
+  max-height: 300px;
+}

@@ -9,3 +9,13 @@
   width: 170px;
   max-height: 300px;
 }
+.lsitItems:hover {
+  background-color: burlywood;
+}
+
+.contianer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -35,7 +35,7 @@ function AutoComplete() {
   }, [input]);
 
   return (
-    <div className="contianer">
+    <div className="container">
       <div>
         <h1>Autocomplete Search Bar:</h1>
       </div>

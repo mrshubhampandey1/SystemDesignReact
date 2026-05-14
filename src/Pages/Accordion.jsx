@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { nanoid } from "nanoid";
+import { FaCircleArrowDown, FaCircleArrowUp } from "react-icons/fa6";
 
 function Accordion() {
   //we are checking which index is open
-  const [openIndex, setOpenIndex] = useState(1);
+  const [openIndex, setOpenIndex] = useState(null);
 
   //accordion data
   const acc_data = [
@@ -40,6 +41,11 @@ function Accordion() {
             <div key={item.id}>
               <div className="heading" onClick={() => handleToggle(index)}>
                 {item.heading}
+                {openIndex == index ? (
+                  <FaCircleArrowUp />
+                ) : (
+                  <FaCircleArrowDown />
+                )}
               </div>
               {openIndex == index ? (
                 <div className="content">{item.content}</div>

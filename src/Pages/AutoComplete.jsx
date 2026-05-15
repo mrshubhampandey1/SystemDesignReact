@@ -14,7 +14,7 @@ function AutoComplete() {
   const fetchAPI = async () => {
     //implementing logic for cache
     if (cache[input]) {
-      console.log("Cached", input);
+      // console.log("Cached", input);
       setRes(cache[input]);
       return;
     }
@@ -22,7 +22,7 @@ function AutoComplete() {
     let furnishedData = await data.json();
     setRes(furnishedData?.recipes);
     setCache((prev) => ({ ...prev, [input]: furnishedData?.recipes }));
-    console.log(furnishedData?.recipes);
+    // console.log(furnishedData?.recipes);
   };
 
   // Calling fetchAPI

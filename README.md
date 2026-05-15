@@ -14,6 +14,16 @@ This repo is a collection of frontend system design implementations covering rea
   <li>On click accordion should be open and all other were closed </li>
   <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/232bba66-2614-445a-a353-ae5145639cf8" />
 </ul>
-<div align="center">
+
+<br/><b>Progress Bar:</b>
+<ul>
+  <li>Create a progress bar</li>
+  <li>Important- Optimization You are using setIinterval in your useEffect() do not forgot to return cleanup</li>
+  <li>Display progress % in the middle and other designing questions may asked</li>
+  <img width="456" height="225" alt="image" src="https://github.com/user-attachments/assets/11b803b1-e8e5-483d-8d2e-4df85ffbdf72" />
+
+</ul>
+
+<br/><div align="center">
 <b>Made with ❤️ by SHUBHAM PANDEY</b>
 </div>
